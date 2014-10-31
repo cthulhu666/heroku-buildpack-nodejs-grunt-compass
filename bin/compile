@@ -56,7 +56,7 @@ PATH=$PATH:$build_dir/vendor/node/bin
 cd $build_dir
 
 # Install latest npm
-npm install npm@latest
+npm install -g npm@latest
 echo "-----> Installed latest npm: `npm -v`"
 
 npm install bower
